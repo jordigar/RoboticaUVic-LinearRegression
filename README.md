@@ -36,6 +36,15 @@ $ sudo apt-get install python-scipy python-numpy python-matplotlib \
 $ sudo apt-get install ipython-notebook
 ```
 
+//Soluciono errors en el jupyter instal.lant lo seguent:
+Mira, per instal·lar numpy has d'anar a la terminal i escriure la següent comanda (també instal·laràs matplotlib, que et serà necessari):
+sudo pip3 install numpy matplotlib
+
+També et poso aquestes comandes, perquè puguis executar tots els exemples del professor i puguis imprimir el fitxer en pdf (recordes que ens ho va dir per entregar, l'exercici, oi?).
+sudo apt-get install texlive-xetex
+sudo apt-get install python3-scipy
+//
+
 Learning Python is extraordinarily easy, especially if other
 programming languages are already known. There are some tutorials to
 get up to speed in a few minutes:
